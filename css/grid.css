@@ -1,0 +1,41 @@
+.wrapper{
+	width:600px;
+	margin:0px auto;
+}
+
+#slider{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+#slider>img{
+	width: 600px;
+	height: 400px;
+	float:left;
+	display: none;
+}
+
+a{
+	padding: 10px 20px;
+	background-color: #F0F0F0;
+	margin-top: 30px;
+	text-decoration: none;
+	color:#666;
+}
+
+a:hover{
+	background-color: #666;	
+	color:#111;
+}
+
+a.left{
+	float:left;
+}
+
+a.right{
+	float:right;
+}
+
+
