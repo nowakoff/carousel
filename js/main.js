@@ -76,11 +76,4 @@ function showSlide(Id){
 
 }
 
-$("#slider>img").hover(
-	function(){
-		stopLoop();
-	},
-	function(){
-		startSlider();
-	}
-	);
+
